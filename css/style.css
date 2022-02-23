@@ -1,0 +1,50 @@
+header {
+  display: flex;
+  background-color:#2F323A;
+  border-bottom: 10px solid black;
+  padding: 10px 20px;
+  justify-content: space-between;
+}
+img{
+  background-color: #6D7174;
+}
+
+nav{
+  text-align: right;
+}
+
+a {
+  display: inline-flex;
+  align-items: center;
+  color: #fff;
+  font-size: 20px;
+  font-family: "Fira Code";
+  text-decoration: none;
+  margin-right: 30px;
+  text-shadow: 4px 4px 2px black;
+}
+
+a::before { /*criar bolinha antes dos links com css*/
+  content: ""; /*Precisa ter um content*/
+  background-color: #6D7174;
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+}
+
+#button{
+  display: inline-block; /*Permitir definir altura e largura*/
+  background-color: #6D7174; /*Cor de fundo do botao*/
+  padding: 18px 20px;
+  /* height: 60px; Altura do botao*/
+  /* line-height: 60px; Centraliza o texto na vertical |*/
+  box-shadow: 5px 5px 2px black; /*Cria uma copia da caixa criada como sombra*/
+  margin-right: 0;
+  text-shadow: 2px 2px 2px black;
+}
+
+#button:hover{
+  background-color: #1C1D22;
+  box-shadow: 0px 0px #6D7174;
+  text-shadow: 0px 0px black;
+}
