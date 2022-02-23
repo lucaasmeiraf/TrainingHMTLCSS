@@ -1,9 +1,10 @@
 header {
   display: flex;
   background-color:#2F323A;
-  border-bottom: 10px solid black;
+  border-bottom: 10px solid rgba(0, 0, 0, 0.493);
   padding: 10px 20px;
   justify-content: space-between;
+  align-items: center;
 }
 img{
   background-color: #6D7174;
@@ -41,10 +42,9 @@ a::before { /*criar bolinha antes dos links com css*/
   box-shadow: 5px 5px 2px black; /*Cria uma copia da caixa criada como sombra*/
   margin-right: 0;
   text-shadow: 2px 2px 2px black;
+  transition: transform 0.1s linear; /*animacao do tamanho padrao ao tamanho normal*/
 }
 
 #button:hover{
-  background-color: #1C1D22;
-  box-shadow: 0px 0px #6D7174;
-  text-shadow: 0px 0px black;
+  transform: scale(1.08); /*scale aumenta o tamanho para todos os lados*/
 }
