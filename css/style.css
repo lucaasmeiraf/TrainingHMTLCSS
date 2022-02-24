@@ -52,29 +52,27 @@ nav > a::before { /*criar bolinha antes dos links com css*/
   transform: scale(1.08); /*scale aumenta o tamanho para todos os lados*/
 }
 
-#titulo-body{
+#box{
   display: inline-block;
-  color: #fff;
   text-align: center;
   font-family: "Press Start 2p";
-  width: 627px;
-  height: 184px;
+  padding: 42px 44px;
   margin-top: 196px;
   margin-left: 91px;
   background-color: #2F323A;
   box-shadow: 5px 5px 2px black;
 }
 
-#titulo-body h1{
-  color: #6D7174;
+#box h1{
   font-size: 40px;
-  padding: 42px 97px 28px 90px;
+  color: #6D7174;
   text-shadow: 5px 5px 2px black;
+  margin-bottom: 28px;
 }
 
-#titulo-body h2{
+#box h2{
   font-size: 30px;
-  padding: 10px 47px 44px 40px;
+  color: #fff;
   text-shadow: 5px 5px 2px black;
 }
 
