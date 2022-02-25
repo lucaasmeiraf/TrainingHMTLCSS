@@ -1,0 +1,17 @@
+.button{
+    display: inline-block; /*Permitir definir altura e largura*/
+    background-color: #6D7174; /*Cor de fundo do botao*/
+    padding: 18px 20px;
+    /* height: 60px; Altura do botao*/
+    /* line-height: 60px; Centraliza o texto na vertical |*/
+    box-shadow: 5px 5px 2px black; /*Cria uma copia da caixa criada como sombra*/
+    margin-right: 0;
+    text-shadow: 2px 2px 2px black;
+    transition: transform 0.1s linear; /*animacao do tamanho padrao ao tamanho normal*/
+    color: #fff;
+    font-size: 20px;
+  }
+  
+  .button:hover{
+    transform: scale(1.08); /*scale aumenta o tamanho para todos os lados*/
+  }

@@ -22,7 +22,6 @@ a {
   align-items: center;
   color: #fff;
   font-size: 20px;
-  font-family: "Fira Code";
   text-decoration: none;
   margin-right: 30px;
   text-shadow: 4px 4px 2px black;
@@ -36,43 +35,5 @@ nav > a::before { /*criar bolinha antes dos links com css*/
   margin-right: 10px;
 }
 
-.button{
-  display: inline-block; /*Permitir definir altura e largura*/
-  background-color: #6D7174; /*Cor de fundo do botao*/
-  padding: 18px 20px;
-  /* height: 60px; Altura do botao*/
-  /* line-height: 60px; Centraliza o texto na vertical |*/
-  box-shadow: 5px 5px 2px black; /*Cria uma copia da caixa criada como sombra*/
-  margin-right: 0;
-  text-shadow: 2px 2px 2px black;
-  transition: transform 0.1s linear; /*animacao do tamanho padrao ao tamanho normal*/
-}
 
-.button:hover{
-  transform: scale(1.08); /*scale aumenta o tamanho para todos os lados*/
-}
-
-#box{
-  display: inline-block;
-  text-align: center;
-  font-family: "Press Start 2p";
-  padding: 42px 44px;
-  margin-top: 196px;
-  margin-left: 91px;
-  background-color: #2F323A;
-  box-shadow: 5px 5px 2px black;
-}
-
-#box h1{
-  font-size: 40px;
-  color: #6D7174;
-  text-shadow: 5px 5px 2px black;
-  margin-bottom: 28px;
-}
-
-#box h2{
-  font-size: 30px;
-  color: #fff;
-  text-shadow: 5px 5px 2px black;
-}
 
