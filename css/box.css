@@ -6,16 +6,3 @@
     background-color: #2F323A;
     box-shadow: 5px 5px 2px black;
   }
-
-  .box h1{
-    font-size: 40px;
-    color: #6D7174;
-    text-shadow: 5px 5px 2px black;
-    margin-bottom: 28px;
-  }
-  
-.box h2{
-    font-size: 30px;
-    color: #fff;
-    text-shadow: 5px 5px 2px black;
-}

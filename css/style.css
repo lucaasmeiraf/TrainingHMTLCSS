@@ -7,7 +7,7 @@ header {
   align-items: center;
 }
 
-#logo{
+.logo{
   color: #fff;
   font-family: "Press Start 2P";
   text-shadow: 5px 5px 2px black;
@@ -34,6 +34,3 @@ nav > a::before { /*criar bolinha antes dos links com css*/
   height: 10px;
   margin-right: 10px;
 }
-
-
-
