@@ -3,7 +3,7 @@
     background-image: url(../assets/images/universe-bg.jpg);
     height: 800px;
     background-repeat: no-repeat; 
-    background-size: 100%;
+    background-size: cover;
     border-bottom: 10px solid #000;
     padding-top: 115px;
     padding-left: 90px;
