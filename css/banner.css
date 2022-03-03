@@ -1,12 +1,26 @@
 .banner{
     box-sizing: border-box;
-    background-image: url(../assets/images/universe-bg.jpg);
+    background-image: url(../assets/images/universe-bg1.jpg);
     height: 800px;
     background-repeat: no-repeat; 
-    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
     border-bottom: 10px solid #000;
     padding-top: 115px;
     padding-left: 90px;
+}
+
+.banner .banner-div{
+    display: flex;
+    justify-content: space-around;
+}
+
+.banner .fotinha{
+    width: 350px;
+    height: 513px;
+    margin-right: 20px;
+    margin-left: 330px;
+    border: 5px solid black;
 }
 
 .banner .wrapper{
@@ -15,7 +29,7 @@
     width: 640px;
 }
 
-.banner .box{
+.banner .box-component{
     margin-bottom: 40px;
 }
 

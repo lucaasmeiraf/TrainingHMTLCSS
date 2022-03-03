@@ -11,46 +11,51 @@
         <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&display=swap" rel="stylesheet">
 
         <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/style.css"><!--Import for CSS-->
-        <link rel="stylesheet" href="css/button.css">
+        <link rel="stylesheet" href="css/index.css"><!--Import for CSS-->
+        <link rel="stylesheet" href="css/button-component.css">
         <link rel="stylesheet" href="css/banner.css">
-        <link rel="stylesheet" href="css/box.css">
+        <link rel="stylesheet" href="css/box-component.css">
         <link rel="stylesheet" href="css/main-title.css">
         <link rel="stylesheet" href="css/subtitle.css">
-        <link rel="stylesheet" href="css/section.css">
+        <link rel="stylesheet" href="css/skills-section.css">
         <link rel="stylesheet" href="css/skill-tec.css">
         <link rel="stylesheet" href="css/progress-bar.css">
         <link rel="stylesheet" href="css/wrapper-skill.css">
+        <link rel="stylesheet" href="css/projects-section.css">
+        <link rel="stylesheet" href="css/wrapper-projects.css">
+        <link rel="stylesheet" href="css/card-project.css">
         <title>HTML e CSS</title>
     </head>
 
     <body>
         <header><!--Cabecalho-->
             <h1 class="logo">Lusquinha</h1>  
-            <img src="/assets/images/darth-vader.png" alt="">
             <nav><!--Menu de navegacao do site-->
-                <a href="" lang="en">Skills</a>
+                <a href="#skills" lang="en">Skills</a>
                 <a href="" lang="en">Projects</a>
                 <a href="" lang="en">About</a>
-                <a href="" lang="en">Contact</a>
-                <a class="button" href="" lang="en">Download CV</a>
+                <a href="lucaas.meiraf@gmail.com" lang="en">Contact</a>
+                <a class="button-component" href="" lang="en">Download CV</a>
             </nav>
         </header>
 
     <section class="banner">
-        <div class="wrapper">
-            <div class="box"> <!--Div por ser apenas visual-->
-                <h1 class="main-title">Lucas Meira</h1>
-                <h2 class="subtitle">FrontEnd Developer</h2>
+        <div class="banner-div">
+            <div class="wrapper">
+                <div class="box-component"> <!--Div por ser apenas visual-->
+                    <h1 class="main-title">Lucas Meira</h1>
+                    <h2 class="subtitle">FrontEnd Developer</h2>
+                </div>
+                <div class="navigation">
+                    <a class="button-component" href="" lang="en">Download CV</a>
+                    <a class="button-component" href="" lang="en">Contatos</a>    
+                </div> 
             </div>
-            <div class="navigation">
-                <a class="button" href="" lang="en">Download CV</a>
-                <a class="button" href="" lang="en">Contatos</a>    
-            </div> 
+                <img class="fotinha" src="/assets/images/lucaslindo.jpeg" alt="">
         </div>
     </section>
 
-    <section class="section">
+    <section class="skills-section" id="skills">
         <h2 class="main-title -second">Skills</h2>
         <div class="wrapper-skill">
             <!--Article == juntar os elementos que formam component-->
@@ -110,5 +115,19 @@
             </article>
         </div>
     </section>
+
+    <section class="projects-section">
+        <h2 class="main-title -third">Projects</h2>
+        <figure class="card-project">
+            <img class="logo" src="./assets/images/dsmovie.ico" alt="DSMovie">
+        </figure>
+        <figure class="card-project">
+            <img class="logo" src="./assets/images/dog-cord.ico" alt="DogCord Alura">
+        </figure>
+        <figure class="card-project">
+            <img class="logo" src="./assets/images/darth-vader.png" alt="Darth Vader">
+        </figure>
+    </section>
+    
     </body>
 </html>

@@ -1,4 +1,4 @@
-.button{
+.button-component{
     display: inline-block; /*Permitir definir altura e largura*/
     background-color: #6D7174; /*Cor de fundo do botao*/
     padding: 18px 20px;
@@ -12,6 +12,6 @@
     font-size: 20px;
   }
   
-  .button:hover{
+  .button-component:hover{
     transform: scale(1.08); /*scale aumenta o tamanho para todos os lados*/
   }
